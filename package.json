@@ -1,0 +1,21 @@
+{
+  "name": "node-boilerplate",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amriteyapandey/node-boilerplate"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Amriteya Pandey",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "morgan": "~1.0.0",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "request": "^2.78.0"
+  }
+}
